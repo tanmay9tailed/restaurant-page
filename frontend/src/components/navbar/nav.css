@@ -1,0 +1,69 @@
+nav{
+    height: 8vh;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position:fixed ;
+    top: 0;
+    z-index: 9;
+}
+.nav-l img{
+    padding: 6px 20px;
+    margin: 0;
+}
+.nav-r ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+.nav-r li{
+    padding: 0 20px;
+    position: relative;
+}
+.nav-r a{
+        text-decoration: none;
+        color: white;
+        /* padding:0px 10px; */
+        position: relative;
+}
+.nav-r .nav-btn{
+    background-color: white;
+    color: black;
+    padding: 13px 35px;
+    margin-right: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.nav-r .nav-btn:hover{
+    background-color: transparent;
+    color: white;
+}
+nav .nav-r .underline::after{
+    content: "";
+    background-color: white;
+    height: 2px;
+    width: 130%;
+    position: absolute;
+    left: -5px;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav .nav-r .underline:hover::after{
+    width: 0%;
+    transition: 0.3s;
+}
+    
+#badge{
+    background-color: red;
+    padding: 3px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+}

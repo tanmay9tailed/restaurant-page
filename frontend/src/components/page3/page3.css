@@ -1,0 +1,48 @@
+.page3{
+    height: 100vh;
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.left-c{
+    width: 30%;
+}
+.left-c h1{
+    font-size: 7vw;
+    margin: 0;
+    line-height: 10vh;
+}
+.left-c .card-p{
+    margin-top: 10vh;
+}
+
+.imageslider{
+    height: 70%;
+    width: 70%;
+    position: relative;
+}
+.imageslider img{
+    margin: 0 15%;
+    object-fit: cover;
+    object-position: center;
+}
+.imageslider p {
+    text-align: center;
+}
+.imageslider .slidebutton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 10vw;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#left{
+    left: -84%;
+}

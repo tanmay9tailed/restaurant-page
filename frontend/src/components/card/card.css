@@ -1,0 +1,28 @@
+.food-card{
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5.5px;
+}
+.card-mid{
+    display: flex;
+    gap: 10px;
+}
+.food-card img{
+    object-fit: cover;
+}
+.food-card .addtocart{
+    margin: 0;
+    padding: 15px 0;
+    transition: all 0.3s;
+}
+.food-card .addtocart:hover{
+    background-color: rgb(206, 206, 206);
+    }
+.food-card .addtocart:active{
+background-color: rgb(183, 183, 183);
+}

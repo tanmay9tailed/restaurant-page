@@ -1,0 +1,26 @@
+.page4{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.page4 h1{
+    font-size: 7vw;
+    text-align: center;
+    padding: 13vh 0;
+    letter-spacing: -5px;
+    margin: 0;
+}
+.page4 .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page4 .cards .card{
+    height: 45vh;
+    width: 25vw;
+    /* background-color: red; */
+}
+.page4 .cards h3{
+    /* margin: 7vh 0px; */
+    font-size: 17px;
+}
